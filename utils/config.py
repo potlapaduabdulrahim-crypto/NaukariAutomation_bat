@@ -1,6 +1,9 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+screenshot_dir = "Screenshots"
+if not os.path.exists(screenshot_dir):
+    os.makedirs(screenshot_dir)
 RESUME_DATA = os.path.join(BASE_DIR, "utils", "resumeData.json")
 USERNAME = "potlapaduabdulrahim@gmail.com"
 PASSWORD = "Nafirahim#@240125"

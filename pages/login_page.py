@@ -5,7 +5,7 @@ from utils import config
 from selenium.webdriver.common.alert import Alert
 import time
 from utils.logger import get_logger
-
+import os
 logger = get_logger(__name__)
 
 class LoginPage:
@@ -47,7 +47,12 @@ class LoginPage:
 
             time.sleep(8)
             logger.info("Submitted login form")
-
+            self.driver.save_screenshot(
+                os.path.join(
+                    config.screenshot_dir,
+                    "naukri_login.png"
+                )
+            )
         except Exception as e:
             logger.error(f"Login failed: {e}")
             raise

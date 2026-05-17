@@ -1,3 +1,4 @@
+import re
 import time
 import json
 from utils import config
@@ -12,6 +13,7 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException,
     NoSuchElementException
 )
+import os
 from utils.AutoApplyUtils import get_answer_from_resume
 
 logger = get_logger(__name__)
@@ -54,6 +56,12 @@ class SearchPage:
         logger.info("Entered Location Successfully...")
 
         search_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//span[normalize-space()='Search']")))
+        self.driver.save_screenshot(
+            os.path.join(
+                config.screenshot_dir,
+                "Search_Data.png"
+            )
+        )
         search_button.click()
         logger.info("Search Button Clicked Successfully...")
         time.sleep(5)
@@ -95,9 +103,21 @@ class SearchPage:
                 pass
 
             try:
-                logger.info(job_card.get_attribute("outerHTML"))
+                # logger.info(job_card.get_attribute("outerHTML"))
+                # Get job card text
+                job_name = job_card.text.split("\n")[0]
+
+                # Remove invalid filename characters
+                safe_job_name = re.sub(r'[\\/*?:"<>|]', "", job_name)
+
+                screenshot_path = os.path.join(
+                    config.screenshot_dir,
+                    f"{safe_job_name}.png"
+                )
+
+                self.driver.save_screenshot(screenshot_path)
                 job_card.click()
-                logger.info(job_card.get_attribute("outerHTML"))
+                # logger.info(job_card.get_attribute("outerHTML"))
             except ElementClickInterceptedException:
                 self.driver.execute_script("arguments[0].click();", job_card)
                 # logger.info()
