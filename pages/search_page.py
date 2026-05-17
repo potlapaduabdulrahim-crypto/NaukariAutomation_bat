@@ -77,6 +77,7 @@ class SearchPage:
 
         job_cards = job_container.find_elements(By.XPATH, "./div")
         page_notifications = len(job_cards)
+        logger.info(f"Total jobs find in the Current page are : {page_notifications}")
         self.total_notifications += page_notifications
         logger.info(f"📢 Total loaded job cards on this page: {page_notifications}")
 
@@ -94,9 +95,12 @@ class SearchPage:
                 pass
 
             try:
+                logger.info(job_card.get_attribute("outerHTML"))
                 job_card.click()
+                logger.info(job_card.get_attribute("outerHTML"))
             except ElementClickInterceptedException:
                 self.driver.execute_script("arguments[0].click();", job_card)
+                # logger.info()
             time.sleep(2)
 
             logger.info(f"🟢 Opened job #{index + 1}")
