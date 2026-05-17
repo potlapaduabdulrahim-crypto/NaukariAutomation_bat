@@ -6,19 +6,21 @@ def get_driver():
 
     options = webdriver.ChromeOptions()
 
-    # Headless
-    options.add_argument("--headless=new")
-
-    # Stability
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
+    # Visible browser
+    options.add_argument("--start-maximized")
 
     # Anti-bot bypass
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option("useAutomationExtension", False)
+
+    options.add_experimental_option(
+        "excludeSwitches",
+        ["enable-automation"]
+    )
+
+    options.add_experimental_option(
+        "useAutomationExtension",
+        False
+    )
 
     # Real browser user-agent
     options.add_argument(
