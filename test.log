@@ -314,3 +314,170 @@ Stacktrace:
 2026-05-17 11:47:41,569 - pages.search_page - INFO - Entered Location Successfully...
 2026-05-17 11:47:44,828 - pages.search_page - INFO - Search Button Clicked Successfully...
 2026-05-17 11:47:49,927 - pages.search_page - INFO - Total jobs find in the Current page are : 22
+2026-05-17 11:50:08,751 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-05-17 11:50:08,780 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-05-17 11:50:14,328 - pages.login_page - INFO - Clicked on Login button
+2026-05-17 11:50:16,368 - pages.login_page - INFO - Login modal is visible
+2026-05-17 11:50:18,800 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-05-17 11:50:21,342 - pages.login_page - INFO - Username Entered Successfully....
+2026-05-17 11:50:29,717 - pages.login_page - INFO - Submitted login form
+2026-05-17 11:50:36,028 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-05-17 11:50:37,436 - pages.search_page - INFO - Experience set Successfully...
+2026-05-17 11:50:42,116 - pages.search_page - INFO - Entered Location Successfully...
+2026-05-17 11:50:44,161 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-05-17 11:50:49,305 - pages.search_page - INFO - Total jobs find in the Current page are : 22
+2026-05-17 11:56:06,765 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:01:25,989 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:06:23,287 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-05-17 12:06:23,322 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-05-17 12:06:26,846 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:06:28,714 - pages.login_page - INFO - Clicked on Login button
+2026-05-17 12:06:30,751 - pages.login_page - INFO - Login modal is visible
+2026-05-17 12:06:33,173 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-05-17 12:06:35,766 - pages.login_page - INFO - Username Entered Successfully....
+2026-05-17 12:06:44,194 - pages.login_page - INFO - Submitted login form
+2026-05-17 12:06:52,012 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-05-17 12:06:52,889 - pages.search_page - INFO - Experience set Successfully...
+2026-05-17 12:06:57,418 - pages.search_page - INFO - Entered Location Successfully...
+2026-05-17 12:06:59,277 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-05-17 12:07:04,421 - pages.search_page - INFO - Total jobs find in the Current page are : 22
+2026-05-17 12:11:29,395 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:12:30,286 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:16:56,081 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:18:00,587 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:21:47,298 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:23:14,059 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:27:05,588 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:28:23,156 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:32:02,029 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:33:43,573 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:37:12,725 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:38:18,881 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:42:14,355 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:43:22,745 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:47:25,891 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:48:07,725 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:52:17,447 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:53:20,687 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:57:27,406 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 12:58:24,227 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:02:10,446 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:03:37,932 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:06:55,602 - test_searchAndApply - INFO - Total jobs found across 15 pages: 302
+2026-05-17 13:06:55,602 - test_searchAndApply - INFO - Total jobs tried to apply: 300
+2026-05-17 13:06:55,602 - test_searchAndApply - INFO - Total jobs successfully applied: 36
+2026-05-17 13:08:32,453 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:13:46,003 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:18:21,332 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-05-17 13:23:07,656 - test_searchAndApply - INFO - Total jobs found across 15 pages: 302
+2026-05-17 13:23:07,659 - test_searchAndApply - INFO - Total jobs tried to apply: 300
+2026-05-17 13:23:07,660 - test_searchAndApply - INFO - Total jobs successfully applied: 29
+2026-07-15 20:03:05,548 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-07-15 20:03:13,520 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-07-15 20:03:19,593 - pages.login_page - INFO - Clicked on Login button
+2026-07-15 20:03:21,633 - pages.login_page - INFO - Login modal is visible
+2026-07-15 20:03:24,545 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-07-15 20:03:27,339 - pages.login_page - INFO - Username Entered Successfully....
+2026-07-15 20:03:36,032 - pages.login_page - INFO - Submitted login form
+2026-07-15 20:09:42,344 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-07-15 20:09:49,573 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-07-15 20:09:55,134 - pages.login_page - INFO - Clicked on Login button
+2026-07-15 20:09:57,156 - pages.login_page - INFO - Login modal is visible
+2026-07-15 20:09:59,505 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-07-15 20:10:02,106 - pages.login_page - INFO - Username Entered Successfully....
+2026-07-15 20:10:10,383 - pages.login_page - INFO - Submitted login form
+2026-07-15 20:11:23,699 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-07-15 20:11:23,709 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-07-15 20:11:29,003 - pages.login_page - INFO - Clicked on Login button
+2026-07-15 20:11:31,041 - pages.login_page - INFO - Login modal is visible
+2026-07-15 20:11:33,474 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-07-15 20:11:36,046 - pages.login_page - INFO - Username Entered Successfully....
+2026-07-15 20:11:44,405 - pages.login_page - INFO - Submitted login form
+2026-07-15 20:29:47,639 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-07-15 20:29:47,660 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-07-15 20:29:53,614 - pages.login_page - INFO - Clicked on Login button
+2026-07-15 20:29:55,670 - pages.login_page - INFO - Login modal is visible
+2026-07-15 20:29:58,486 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-07-15 20:30:02,176 - pages.login_page - INFO - Username Entered Successfully....
+2026-07-15 20:30:11,240 - pages.login_page - INFO - Submitted login form
+2026-07-15 20:34:26,612 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-07-15 20:34:34,150 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-07-15 20:34:39,437 - pages.login_page - INFO - Clicked on Login button
+2026-07-15 20:34:41,487 - pages.login_page - INFO - Login modal is visible
+2026-07-15 20:34:43,838 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-07-15 20:34:46,507 - pages.login_page - INFO - Username Entered Successfully....
+2026-07-15 20:34:54,925 - pages.login_page - INFO - Submitted login form
+2026-07-15 20:36:02,187 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-07-15 20:36:03,299 - pages.search_page - INFO - Experience set Successfully...
+2026-07-15 20:36:07,609 - pages.search_page - INFO - Entered Location Successfully...
+2026-07-15 20:36:11,093 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-07-15 20:36:16,474 - pages.search_page - INFO - Total jobs find in the Current page are : 22
+2026-07-15 20:41:40,332 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 20:46:52,638 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 20:52:18,248 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 20:57:41,680 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 20:58:45,421 - pages.search_page - INFO - Writing the answer:I have 2 years of experience in Java Fullstack Developer role.
+2026-07-15 21:02:33,083 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:07:44,557 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:13:05,250 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:18:09,360 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:23:50,230 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:29:10,023 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:34:25,250 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:40:03,601 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:45:22,516 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:50:42,779 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 21:55:51,194 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 22:01:10,880 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 22:05:53,350 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 22:11:12,809 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 22:16:32,373 - pages.search_page - INFO - Total jobs find in the Current page are : 20
+2026-07-15 22:21:43,907 - test_searchAndApply - INFO - Total jobs found across 20 pages: 402
+2026-07-15 22:21:43,913 - test_searchAndApply - INFO - Total jobs tried to apply: 400
+2026-07-15 22:21:43,914 - test_searchAndApply - INFO - Total jobs successfully applied: 58
+2026-11-11 19:40:41,119 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-11-11 19:40:41,151 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-11-11 19:40:46,494 - pages.login_page - INFO - Clicked on Login button
+2026-11-11 19:40:48,513 - pages.login_page - INFO - Login modal is visible
+2026-11-11 19:40:50,696 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-11-11 19:40:52,880 - pages.login_page - INFO - Username Entered Successfully....
+2026-11-11 19:41:01,054 - pages.login_page - INFO - Submitted login form
+2026-11-11 19:51:11,425 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-11-11 19:51:11,446 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-11-11 19:51:16,685 - pages.login_page - INFO - Clicked on Login button
+2026-11-11 19:51:18,694 - pages.login_page - INFO - Login modal is visible
+2026-11-11 19:51:20,827 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-11-11 19:51:23,135 - pages.login_page - INFO - Username Entered Successfully....
+2026-11-11 19:51:31,294 - pages.login_page - INFO - Submitted login form
+2026-11-11 19:51:47,197 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-11-11 19:51:47,961 - pages.search_page - INFO - Experience set Successfully...
+2026-11-11 19:51:52,069 - pages.search_page - INFO - Entered Location Successfully...
+2026-11-11 19:51:52,870 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-11-11 19:53:12,985 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-11-11 19:53:12,994 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-11-11 19:53:18,113 - pages.login_page - INFO - Clicked on Login button
+2026-11-11 19:53:20,123 - pages.login_page - INFO - Login modal is visible
+2026-11-11 19:53:22,274 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-11-11 19:53:24,544 - pages.login_page - INFO - Username Entered Successfully....
+2026-11-11 19:53:32,680 - pages.login_page - INFO - Submitted login form
+2026-11-11 19:53:48,547 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-11-11 19:53:49,381 - pages.search_page - INFO - Experience set Successfully...
+2026-11-11 19:53:53,500 - pages.search_page - INFO - Entered Location Successfully...
+2026-11-11 19:53:54,396 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-11-11 20:12:37,585 - test_searchAndApply - INFO - Total jobs found across 50 pages: 0
+2026-11-11 20:12:37,586 - test_searchAndApply - INFO - Total jobs tried to apply: 0
+2026-11-11 20:12:37,586 - test_searchAndApply - INFO - Total jobs successfully applied: 0
+2026-11-11 21:36:34,435 - pages.login_page - INFO - Navigated to https://www.naukri.com/
+2026-11-11 21:36:34,757 - pages.login_page - INFO - Page Title: Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com
+2026-11-11 21:36:40,133 - pages.login_page - INFO - Clicked on Login button
+2026-11-11 21:36:42,156 - pages.login_page - INFO - Login modal is visible
+2026-11-11 21:36:44,378 - pages.login_page - INFO - Username Entered Successfully.... 
+2026-11-11 21:36:46,817 - pages.login_page - INFO - Username Entered Successfully....
+2026-11-11 21:36:55,035 - pages.login_page - INFO - Submitted login form
+2026-11-11 21:37:11,327 - pages.search_page - INFO - Skill/Company/Designation Entered Successfully...
+2026-11-11 21:37:12,070 - pages.search_page - INFO - Experience set Successfully...
+2026-11-11 21:37:16,181 - pages.search_page - INFO - Entered Location Successfully...
+2026-11-11 21:37:17,742 - pages.search_page - INFO - Search Button Clicked Successfully...
+2026-11-11 21:39:08,298 - test_searchAndApply - INFO - Total jobs found across 5 pages: 0
+2026-11-11 21:39:08,298 - test_searchAndApply - INFO - Total jobs tried to apply: 0
+2026-11-11 21:39:08,298 - test_searchAndApply - INFO - Total jobs successfully applied: 0

@@ -27,8 +27,8 @@ class SearchPage:
 
     def Search_Matching_Postion(self):
         wait = WebDriverWait(self.driver, 10)
-
-        self.driver.find_element(By.XPATH, "//span[@class='nI-gNb-sb__placeholder']").click()
+        time.sleep(10)
+        self.driver.find_element(By.XPATH, "//button[@aria-label='Search jobs here']").click()
         time.sleep(2)
 
         skill_input = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Enter keyword / designation / companies']")))
