@@ -26,7 +26,7 @@ class SearchPage:
     def Search_Matching_Postion(self):
         wait = WebDriverWait(self.driver, 10)
 
-        self.driver.find_element(By.XPATH, "//span[@class='nI-gNb-sb__placeholder']").click()
+        self.driver.find_element(By.XPATH, '//*[@id="ni-gnb-searchbar"]').click()
         time.sleep(2)
 
         skill_input = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='Enter keyword / designation / companies']")))
@@ -70,12 +70,16 @@ class SearchPage:
             return
 
         try:
-            job_container = wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='styles_jlc__main__VdwtF']")))
+            # The results container is a <ul>, and class names have hashed suffixes, so use a partial match
+            job_container = wait.until(EC.presence_of_element_located(
+                (By.XPATH, "//ul[contains(@class,'styles_jlc__main')]")))
         except TimeoutException:
             logger.info("❌ No job listings found.")
             return
 
-        job_cards = job_container.find_elements(By.XPATH, "./div")
+        # Select only real job tuples (skips salary/company filter widgets and promo cards)
+        job_cards = job_container.find_elements(
+            By.XPATH, ".//div[contains(@class,'srp-jobtuple-wrapper')]")
         page_notifications = len(job_cards)
         self.total_notifications += page_notifications
         logger.info(f"📢 Total loaded job cards on this page: {page_notifications}")
@@ -86,17 +90,16 @@ class SearchPage:
             time.sleep(0.5)
 
             try:
-                job_card.find_element(By.XPATH, ".//*[contains(text(), 'Filter jobs by')]")
-                logger.info(f"⚠️ Skipping job #{index + 1} due to 'Filter jobs by'")
+                title_link = job_card.find_element(By.XPATH, ".//a[contains(@class,'title')]")
+            except (NoSuchElementException, StaleElementReferenceException):
+                logger.info(f"⚠️ Skipping job #{index + 1}: title link not found")
                 index += 1
                 continue
-            except NoSuchElementException:
-                pass
 
             try:
-                job_card.click()
+                title_link.click()
             except ElementClickInterceptedException:
-                self.driver.execute_script("arguments[0].click();", job_card)
+                self.driver.execute_script("arguments[0].click();", title_link)
             time.sleep(2)
 
             logger.info(f"🟢 Opened job #{index + 1}")
